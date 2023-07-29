@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
         val fadingTextView = findViewById<FadingTextView>(R.id.fadingTextView)
         fadingTextView.setTimeout(2.seconds)
         //Setting up the timeout seek bar
+        //hello sir 
         val seekBar = findViewById<DiscreteSeekBar>(R.id.timeout_bar)
         seekBar.setOnProgressChangeListener(object : DiscreteSeekBar.OnProgressChangeListener {
             override fun onProgressChanged(
